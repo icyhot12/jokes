@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.jokes-container {
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.joke {
+    border: solid 0.5px;
+    padding: 5px 5px;
+}
